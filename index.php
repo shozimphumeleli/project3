@@ -13,6 +13,9 @@ $app->map(['GET', 'POST'], '/hello', function (Request $request, Response $respo
 
     global $method;
     return 'hello';
+
+global $method;
+
 });
 
 $app->map(['GET', 'POST'], '/logout', function (Request $request, Response $responce) {
